@@ -22,19 +22,21 @@ I really suggest getting the Github Desktop, it does everything for you so you d
 ## 2 download node and git if you haven't, check the versions if you don't know if its downloaded
 
 ## 3 Check the backend 
-
+```
 cd backend
 npm install
 node server.js
+```
 
 Runs on http://localhost:3000/
 Test API: http://localhost:3000/api <- use this link to see if something pops up on the tab saying "Hello from backend! This is Project Random Project"
 
 ## 4 Check the frontend
-
+```
 cd frontend
 npm install
 npm run dev
+```
 
 Runs on http://localhost:5175/
 Click “Get Message” to fetch data from backend and it should show "Hello from backend! This is Project Random Project" this is to see if the backend is connected to the frontend.
