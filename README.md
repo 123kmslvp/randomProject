@@ -32,12 +32,18 @@ Runs on http://localhost:3000/
 Test API: http://localhost:3000/api <- use this link to see if something pops up on the tab saying "Hello from backend! This is Project Random Project"
 
 ## 4 Check the frontend
+
 ```
 cd frontend
 npm install
 npm run dev
 ```
 
+make sure to also download if it doesn't work (prob won't)
+```
+npm install react-router-dom
+```
+and do npm run dev again
 Runs on http://localhost:5175/
 Click “Get Message” to fetch data from backend and it should show "Hello from backend! This is Project Random Project" this is to see if the backend is connected to the frontend.
 
