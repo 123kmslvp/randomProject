@@ -53,6 +53,3 @@ Click “Get Message” to fetch data from backend and it should show "Hello fro
 to make sure everything works, make a branch from main, create a button on the main page that leads to another frontend file that is named after yourself. the new file(page) should have a background of your choosing and a bunch of works explaining what you are doing this break (i want to watch this show) like a todo list.
 
 Make a PR request 
-
-
-Testing my checkout of the git repo that I created.
