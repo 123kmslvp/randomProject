@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import "./App.css";
+import Map from "./Map";
 
 export default function Home() {
   const navigate = useNavigate();
@@ -13,6 +14,13 @@ export default function Home() {
       onClick={() => navigate("/kriti")}>
         Kriti
       </button>
+
+      <br />
+
+      <div className="map-container">
+        <Map />
+      </div>
+      
     </div>
   );
 }
