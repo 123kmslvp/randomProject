@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
-import "./App.css";
-import Map from "./Map";
+import Map from "../../components/Map/Map";
+import "../../App.css";
 
 export default function Home() {
   const navigate = useNavigate();

@@ -20,8 +20,6 @@ h2 {
 
 .blue-button {
   display: flex;
-  width: 199px;
-  height: 76px;
   padding: 10px 65.82px 9.764px 66px;
   justify-content: center;
   align-items: center;
@@ -59,8 +57,7 @@ h2 {
 
 .flex-white {
   display: flex;
-  padding: 15px 10px 15px 10px;
-  width: 300px;
+  padding: 24px;
   justify-content: center;
   align-items: center;
   border-radius: 8px;
@@ -68,6 +65,25 @@ h2 {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   flex-direction: column;
   gap: 15px;
+  box-sizing: border-box;
+  margin: 24px auto;
+}
+
+/* size options */
+.card-small {
+  width: 300px;
+}
+
+.card-medium {
+  width: 500px;
+}
+
+.card-large {
+  width: 80%;
+}
+
+.card-full {
+  width: 100%;
 }
 
 .color-palette {
@@ -88,3 +104,27 @@ h2 {
 .color-dot:hover {
   filter: brightness(0.9);
 }
+
+/* Small top navigation/header */
+.top-header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding: 0px 100px;
+  background: #F7BCB0;
+  border-bottom: 1px solid #e5e5e5;
+
+}
+
+.top-header h2 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.color-blue{
+  background: #AADCF2;
+}
+
