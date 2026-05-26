@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./Home";
-import Kriti from "./Kriti";
+import Home from "./pages/Home/Home";
+import Kriti from "./pages/Kriti/Kriti";
 
 export default function App() {
   return (
